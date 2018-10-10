@@ -1,0 +1,16 @@
+.basicFlex {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#logo {
+  margin-left: 20px;
+}
+
+#myTimes {
+  color: aquamarine;
+  font-size: 14px;
+  margin: 0 auto;
+}
