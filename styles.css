@@ -1,16 +1,34 @@
+#test {
+  margin-top: 15px;
+  
+}
+
 .basicFlex {
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border: 2px solid black;
+  align-items: center;
+  width:100%;
+  
+}
+
+#logo, 
+#myTimes {
 }
 
 #logo {
-  margin-left: 20px;
+  margin: 10px 20px;
 }
 
 #myTimes {
   color: aquamarine;
   font-size: 14px;
-  margin: 0 auto;
+}
+
+.navLink {
+  display: inline-block;
+  text-align: right;
 }
